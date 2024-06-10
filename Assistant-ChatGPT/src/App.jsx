@@ -5,7 +5,8 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  // eslint-disable-next-line no-undef
+  console.log(process.env.OPENAI_API_KEY)
   return (
     <>
       <div>
